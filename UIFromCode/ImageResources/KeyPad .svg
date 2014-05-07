@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500px" height="822px" viewBox="0 0 500 822" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Slice 1</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <circle id="Oval-1" stroke="url(#linearGradient-1)" stroke-width="3" sketch:type="MSShapeGroup" cx="72" cy="72" r="70"></circle>
+        <text id="1" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="82" font-weight="206" fill="#000000">
+            <tspan x="49" y="98">1</tspan>
+        </text>
+        <circle id="Oval-1-copy" stroke="url(#linearGradient-1)" stroke-width="3" sketch:type="MSShapeGroup" cx="250" cy="72" r="70"></circle>
+        <text id="2" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="82" font-weight="206" fill="#000000">
+            <tspan x="227" y="98">2</tspan>
+        </text>
+        <circle id="Oval-1-copy-2" stroke="url(#linearGradient-1)" stroke-width="3" sketch:type="MSShapeGroup" cx="428" cy="72" r="70"></circle>
+        <text id="3" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="82" font-weight="206" fill="#000000">
+            <tspan x="405" y="98">3</tspan>
+        </text>
+        <circle id="Oval-1" stroke="url(#linearGradient-1)" stroke-width="3" sketch:type="MSShapeGroup" cx="72" cy="242" r="70"></circle>
+        <text id="4" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="82" font-weight="206" fill="#000000">
+            <tspan x="49" y="268">4</tspan>
+        </text>
+        <circle id="Oval-1-copy" stroke="url(#linearGradient-1)" stroke-width="3" sketch:type="MSShapeGroup" cx="250" cy="242" r="70"></circle>
+        <text id="5" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="82" font-weight="206" fill="#000000">
+            <tspan x="227" y="268">5</tspan>
+        </text>
+        <circle id="Oval-1-copy-2" stroke="url(#linearGradient-1)" stroke-width="3" sketch:type="MSShapeGroup" cx="428" cy="242" r="70"></circle>
+        <text id="6" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="82" font-weight="206" fill="#000000">
+            <tspan x="405" y="268">6</tspan>
+        </text>
+        <circle id="Oval-1" stroke="url(#linearGradient-1)" stroke-width="3" sketch:type="MSShapeGroup" cx="72" cy="412" r="70"></circle>
+        <text id="7" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="82" font-weight="206" fill="#000000">
+            <tspan x="49" y="438">7</tspan>
+        </text>
+        <circle id="Oval-1" stroke="url(#linearGradient-1)" stroke-width="3" sketch:type="MSShapeGroup" cx="72" cy="582" r="70"></circle>
+        <text id="*" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="82" font-weight="206" fill="#000000">
+            <tspan x="58" y="632">*</tspan>
+        </text>
+        <circle id="Oval-1-copy" stroke="url(#linearGradient-1)" stroke-width="3" sketch:type="MSShapeGroup" cx="250" cy="412" r="70"></circle>
+        <text id="8" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="82" font-weight="206" fill="#000000">
+            <tspan x="227" y="438">8</tspan>
+        </text>
+        <circle id="Oval-1-copy" stroke="url(#linearGradient-1)" stroke-width="3" sketch:type="MSShapeGroup" cx="250" cy="582" r="70"></circle>
+        <text id="0" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="82" font-weight="206" fill="#000000">
+            <tspan x="227" y="608">0</tspan>
+        </text>
+        <g id="Oval-1-copy-+-5" sketch:type="MSLayerGroup" transform="translate(180.000000, 682.000000)" fill="#46F700">
+            <circle id="Oval-1-copy" sketch:type="MSShapeGroup" cx="70" cy="70" r="70"></circle>
+        </g>
+        <path d="M240.005486,764.314837 C236.163089,760.643172 227.475929,753.865278 223.482993,745.956511 C218.55929,736.204568 217.975495,733.012055 217.975495,729.434017 C217.975495,725.855979 218.865874,724.558045 219.811327,723.926519 C220.756781,723.294993 227.720094,718.573231 227.720094,718.573231 C227.720094,718.573231 229.423747,717.302835 230.982369,720.15939 C232.225228,722.435823 238.169654,731.26985 238.169654,731.26985 C238.169654,731.26985 239.669529,732.452126 239.928381,734.286123 C240.119308,735.651982 238.680015,737.30056 237.701516,738.301089 C235.671086,740.375579 235.089127,740.551819 235.089127,743.272523 C235.089127,745.993227 241.736677,753.424678 243.620241,755.308242 C245.501969,757.18997 245.311043,757.200985 247.291906,758.979907 C249.643608,761.091115 255.769781,766.627986 258.363813,765.807369 C260.741216,765.052842 261.671983,765.039991 263.83643,762.693797 C265.641053,760.736799 269.215419,761.887866 270.698772,763.051784 C272.182125,764.217538 279.780636,768.361012 281.946919,769.781947 C284.113201,771.204717 283.973678,773.536224 283.973678,773.536224 C283.973678,773.536224 279.532799,780.214983 278.932482,781.114541 C278.299119,782.059995 276.626676,782.902642 273.050474,782.902642 C269.472436,782.902642 265.806278,782.932016 256.52798,777.165665 C249.171799,772.592606 243.846048,767.986502 240.005486,764.314837" id="Fill-1" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
+        <circle id="Oval-1-copy-2" stroke="url(#linearGradient-1)" stroke-width="3" sketch:type="MSShapeGroup" cx="428" cy="412" r="70"></circle>
+        <text id="9" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="82" font-weight="206" fill="#000000">
+            <tspan x="405" y="438">9</tspan>
+        </text>
+        <circle id="Oval-1-copy-2" stroke="url(#linearGradient-1)" stroke-width="3" sketch:type="MSShapeGroup" cx="428" cy="582" r="70"></circle>
+        <text id="#" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="82" font-weight="206" fill="#000000">
+            <tspan x="405" y="608">#</tspan>
+        </text>
+    </g>
+</svg>
