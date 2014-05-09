@@ -45,18 +45,21 @@
         }
         [self setTranslatesAutoresizingMaskIntoConstraints:NO];
         
+#define STANDARDSPACEH 25
+#define STANDARDSPACEV 8
+        
+        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:[NSString stringWithFormat:@"H:|-%d-[oneButton(==twoButton)]-%d-[twoButton(==oneButton)]-%d-[threeButton(==oneButton)]-%d-|", STANDARDSPACEH, STANDARDSPACEH, STANDARDSPACEH, STANDARDSPACEH] options:0 metrics:nil views:views]];
+        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:[NSString stringWithFormat:@"H:|-%d-[fourButton(==twoButton)]-%d-[fiveButton(==twoButton)]-%d-[sixButton(==twoButton)]-%d-|", STANDARDSPACEH, STANDARDSPACEH, STANDARDSPACEH, STANDARDSPACEH] options:0 metrics:nil views:views]];
+        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:[NSString stringWithFormat:@"H:|-%d-[sevenButton(==twoButton)]-%d-[eightButton(==twoButton)]-%d-[nineButton(==twoButton)]-%d-|", STANDARDSPACEH, STANDARDSPACEH, STANDARDSPACEH, STANDARDSPACEH] options:0 metrics:nil views:views]];
+        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:[NSString stringWithFormat:@"H:|-%d-[asterickButton(==twoButton)]-%d-[zeroButton(==twoButton)]-%d-[hashtagButton(==twoButton)]-%d-|", STANDARDSPACEH, STANDARDSPACEH, STANDARDSPACEH, STANDARDSPACEH] options:0 metrics:nil views:views]];
+        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:[NSString stringWithFormat:@"H:|-%d-[oneButton(==twoButton)]-%d-[phoneButton(==twoButton)]-%d-[threeButton(==twoButton)]-%d-|", STANDARDSPACEH, STANDARDSPACEH, STANDARDSPACEH, STANDARDSPACEH] options:0 metrics:nil views:views]];
         
         
-        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[oneButton(==twoButton)]-[twoButton(==oneButton)]-[threeButton(==oneButton)]-|" options:0 metrics:nil views:views]];
-        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[fourButton(==twoButton)]-[fiveButton(==twoButton)]-[sixButton(==twoButton)]-|" options:0 metrics:nil views:views]];
-        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[sevenButton(==twoButton)]-[eightButton(==twoButton)]-[nineButton(==twoButton)]-|" options:0 metrics:nil views:views]];
-        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[asterickButton(==twoButton)]-[zeroButton(==twoButton)]-[hashtagButton(==twoButton)]-|" options:0 metrics:nil views:views]];
-        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-[oneButton(==twoButton)]-[phoneButton(==twoButton)]-[threeButton(==twoButton)]-|" options:0 metrics:nil views:views]];
+        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:[NSString stringWithFormat:@"V:|-%d-[oneButton(==fourButton)]-%d-[fourButton(==oneButton)]-%d-[sevenButton(==fourButton)]-%d-[asterickButton(==fourButton)]-[phoneButton(==fourButton)]-%d-|", STANDARDSPACEV, STANDARDSPACEV, STANDARDSPACEV, STANDARDSPACEV, STANDARDSPACEV] options:0 metrics:nil views:views]];
         
+        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:[NSString stringWithFormat:@"V:|-%d-[twoButton(==fourButton)]-%d-[fiveButton(==fourButton)]-%d-[eightButton(==fourButton)]-%d-[zeroButton(==fourButton)]-%d-[phoneButton(==fourButton)]-%d-|", STANDARDSPACEV, STANDARDSPACEV, STANDARDSPACEV, STANDARDSPACEV, STANDARDSPACEV, STANDARDSPACEV] options:0 metrics:nil views:views]];
         
-        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[oneButton(==fourButton)]-[fourButton(==oneButton)]-[sevenButton(==fourButton)]-[asterickButton(==fourButton)]-[phoneButton(==fourButton)]|" options:0 metrics:nil views:views]];
-        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[twoButton(==fourButton)]-[fiveButton(==fourButton)]-[eightButton(==fourButton)]-[zeroButton(==fourButton)]-[phoneButton(==fourButton)]|" options:0 metrics:nil views:views]];
-        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-[threeButton(==fourButton)]-[sixButton(==fourButton)]-[nineButton(==fourButton)]-[hashtagButton(==fourButton)]-[phoneButton(==fourButton)]|" options:0 metrics:nil views:views]];
+        [self addConstraints: [NSLayoutConstraint constraintsWithVisualFormat:[NSString stringWithFormat:@"V:|-%d-[threeButton(==fourButton)]-%d-[sixButton(==fourButton)]-%d-[nineButton(==fourButton)]-%d-[hashtagButton(==fourButton)]-%d-[phoneButton(==fourButton)]-%d-|", STANDARDSPACEV, STANDARDSPACEV, STANDARDSPACEV, STANDARDSPACEV, STANDARDSPACEV, STANDARDSPACEV] options:0 metrics:nil views:views]];
         
         [self layoutSubviews];
         

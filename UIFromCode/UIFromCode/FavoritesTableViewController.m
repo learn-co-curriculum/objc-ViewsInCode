@@ -7,6 +7,9 @@
 //
 
 #import "FavoritesTableViewController.h"
+#import "UIImage+Alpha.h"
+#import "UIImage+RoundedImage.h"
+#import "FavoritesTableViewCell.h"
 
 @interface FavoritesTableViewController ()
 
@@ -38,9 +41,9 @@
     
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addFavorite)];
-    
-    //[[self tableView] registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
-    
+    self.tableView.separatorInset = UIEdgeInsetsMake(0, 50, 0, 0);
+    self.tableView.rowHeight = 50;
+    [self.tableView registerClass:[FavoritesTableViewCell class] forCellReuseIdentifier:@"Cell"];
 }
 
 - (void)addFavorite
@@ -70,13 +73,16 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    FavoritesTableViewCell *cell = (FavoritesTableViewCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
-    cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
+    //cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier];
     cell.accessoryType = UITableViewCellAccessoryDetailButton;
-    cell.textLabel.text = @"Al Tyus";
+    //cell.textLabel.text = @"Al Tyus";
     cell.detailTextLabel.text = @"mobile";
+    //cell.imageView.image = [UIImage roundedImageWithImage:[[UIImage imageNamed:@"al.jpg"] imageWithAlpha]];
     
+    cell.nameLabel.text = @"Al Tyus"; 
+    cell.pictureImageView.image = [UIImage roundedImageWithImage:[[UIImage imageNamed:@"al.jpg"] imageWithAlpha]];
     return cell;
 }
 

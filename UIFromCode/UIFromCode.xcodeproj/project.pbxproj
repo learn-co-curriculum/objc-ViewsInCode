@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44BEF1E5191A6DF30043D6F7 /* al.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 44BEF1E4191A6DF30043D6F7 /* al.jpg */; };
+		44BEF1EA191A6E490043D6F7 /* UIImage+RoundedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BEF1E7191A6E490043D6F7 /* UIImage+RoundedImage.m */; };
+		44BEF1EB191A6E490043D6F7 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BEF1E9191A6E490043D6F7 /* UIImage+Alpha.m */; };
+		44BEF1F1191A6F990043D6F7 /* FavoritesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BEF1F0191A6F990043D6F7 /* FavoritesTableViewCell.m */; };
 		44EB468B18E372C900BCE999 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB468A18E372C900BCE999 /* Foundation.framework */; };
 		44EB468D18E372C900BCE999 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB468C18E372C900BCE999 /* CoreGraphics.framework */; };
 		44EB468F18E372C900BCE999 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44EB468E18E372C900BCE999 /* UIKit.framework */; };
@@ -28,7 +32,10 @@
 		44EB46D018E4B5FB00BCE999 /* KeypadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB46CF18E4B5FB00BCE999 /* KeypadView.m */; };
 		44EB46D318E4B69C00BCE999 /* numberPadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB46D218E4B69C00BCE999 /* numberPadButton.m */; };
 		44EB46D618E4D0F200BCE999 /* UIView+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 44EB46D518E4D0F200BCE999 /* UIView+Convenience.m */; };
+		ABAE8EB927E7E276E9732668 /* VoicemailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAE87EF0D7BFFFE9B5DF14E /* VoicemailTableViewCell.m */; };
+		ABAE8FA8339B29279F9CAE12 /* RecentsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAE89B0437CEBE55BEAE07B /* RecentsTableViewCell.m */; };
 		BB5EA6F1387E4B8B8ECA9A0E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18EC4FD78BE54EA49F19171F /* libPods.a */; };
+		DED69D9602FD47EDB87D8810 /* libPods-UIFromCodeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D84FE91D8CFE4675974ED6F5 /* libPods-UIFromCodeTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +50,13 @@
 
 /* Begin PBXFileReference section */
 		18EC4FD78BE54EA49F19171F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		44BEF1E4191A6DF30043D6F7 /* al.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = al.jpg; sourceTree = "<group>"; };
+		44BEF1E6191A6E490043D6F7 /* UIImage+RoundedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedImage.h"; sourceTree = "<group>"; };
+		44BEF1E7191A6E490043D6F7 /* UIImage+RoundedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedImage.m"; sourceTree = "<group>"; };
+		44BEF1E8191A6E490043D6F7 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		44BEF1E9191A6E490043D6F7 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		44BEF1EF191A6F990043D6F7 /* FavoritesTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesTableViewCell.h; sourceTree = "<group>"; };
+		44BEF1F0191A6F990043D6F7 /* FavoritesTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesTableViewCell.m; sourceTree = "<group>"; };
 		44EB468718E372C900BCE999 /* UIFromCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIFromCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44EB468A18E372C900BCE999 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44EB468C18E372C900BCE999 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -77,6 +91,12 @@
 		44EB46D218E4B69C00BCE999 /* numberPadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = numberPadButton.m; sourceTree = "<group>"; };
 		44EB46D418E4D0F200BCE999 /* UIView+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Convenience.h"; sourceTree = "<group>"; };
 		44EB46D518E4D0F200BCE999 /* UIView+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Convenience.m"; sourceTree = "<group>"; };
+		9DE7D7BA5AB34E5D937DADBD /* Pods-UIFromCodeTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIFromCodeTests.xcconfig"; path = "Pods/Pods-UIFromCodeTests.xcconfig"; sourceTree = "<group>"; };
+		ABAE83656E55BF9C11D1A731 /* RecentsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentsTableViewCell.h; sourceTree = "<group>"; };
+		ABAE87EF0D7BFFFE9B5DF14E /* VoicemailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoicemailTableViewCell.m; sourceTree = "<group>"; };
+		ABAE89B0437CEBE55BEAE07B /* RecentsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentsTableViewCell.m; sourceTree = "<group>"; };
+		ABAE8F015F7906F35CE0216B /* VoicemailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoicemailTableViewCell.h; sourceTree = "<group>"; };
+		D84FE91D8CFE4675974ED6F5 /* libPods-UIFromCodeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIFromCodeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1FF6B55B764F1EA516BD55 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,12 +119,62 @@
 				44EB46A418E372C900BCE999 /* XCTest.framework in Frameworks */,
 				44EB46A618E372C900BCE999 /* UIKit.framework in Frameworks */,
 				44EB46A518E372C900BCE999 /* Foundation.framework in Frameworks */,
+				DED69D9602FD47EDB87D8810 /* libPods-UIFromCodeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44BEF1EC191A6F420043D6F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		44BEF1ED191A6F4C0043D6F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44EB46D418E4D0F200BCE999 /* UIView+Convenience.h */,
+				44EB46D518E4D0F200BCE999 /* UIView+Convenience.m */,
+				44BEF1E6191A6E490043D6F7 /* UIImage+RoundedImage.h */,
+				44BEF1E7191A6E490043D6F7 /* UIImage+RoundedImage.m */,
+				44BEF1E8191A6E490043D6F7 /* UIImage+Alpha.h */,
+				44BEF1E9191A6E490043D6F7 /* UIImage+Alpha.m */,
+				44EB46D118E4B69C00BCE999 /* numberPadButton.h */,
+				44EB46D218E4B69C00BCE999 /* numberPadButton.m */,
+				44EB46CE18E4B5FB00BCE999 /* KeypadView.h */,
+				44EB46CF18E4B5FB00BCE999 /* KeypadView.m */,
+				44BEF1EF191A6F990043D6F7 /* FavoritesTableViewCell.h */,
+				44BEF1F0191A6F990043D6F7 /* FavoritesTableViewCell.m */,
+				ABAE89B0437CEBE55BEAE07B /* RecentsTableViewCell.m */,
+				ABAE83656E55BF9C11D1A731 /* RecentsTableViewCell.h */,
+				ABAE8F015F7906F35CE0216B /* VoicemailTableViewCell.h */,
+				ABAE87EF0D7BFFFE9B5DF14E /* VoicemailTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		44BEF1EE191A6F500043D6F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				44EB46CB18E48DCB00BCE999 /* RootTabBarController.h */,
+				44EB46CC18E48DCB00BCE999 /* RootTabBarController.m */,
+				44EB46B918E376E800BCE999 /* FavoritesTableViewController.h */,
+				44EB46BA18E376E800BCE999 /* FavoritesTableViewController.m */,
+				44EB46BF18E3983100BCE999 /* RecentsTableViewController.h */,
+				44EB46C018E3983100BCE999 /* RecentsTableViewController.m */,
+				44EB46C218E3C25300BCE999 /* ContactsTableViewController.h */,
+				44EB46C318E3C25300BCE999 /* ContactsTableViewController.m */,
+				44EB46C818E3C6A300BCE999 /* VoicemailTableViewController.h */,
+				44EB46C918E3C6A300BCE999 /* VoicemailTableViewController.m */,
+				44EB46C518E3C51E00BCE999 /* KeyPadViewController.h */,
+				44EB46C618E3C51E00BCE999 /* KeyPadViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		44EB467E18E372C900BCE999 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +183,7 @@
 				44EB468918E372C900BCE999 /* Frameworks */,
 				44EB468818E372C900BCE999 /* Products */,
 				FF1FF6B55B764F1EA516BD55 /* Pods.xcconfig */,
+				9DE7D7BA5AB34E5D937DADBD /* Pods-UIFromCodeTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +204,7 @@
 				44EB468E18E372C900BCE999 /* UIKit.framework */,
 				44EB46A318E372C900BCE999 /* XCTest.framework */,
 				18EC4FD78BE54EA49F19171F /* libPods.a */,
+				D84FE91D8CFE4675974ED6F5 /* libPods-UIFromCodeTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,28 +212,14 @@
 		44EB469018E372C900BCE999 /* UIFromCode */ = {
 			isa = PBXGroup;
 			children = (
+				44BEF1EE191A6F500043D6F7 /* Controller */,
+				44BEF1ED191A6F4C0043D6F7 /* View */,
+				44BEF1EC191A6F420043D6F7 /* Model */,
+				44BEF1E4191A6DF30043D6F7 /* al.jpg */,
 				44EB469918E372C900BCE999 /* AppDelegate.h */,
 				44EB469A18E372C900BCE999 /* AppDelegate.m */,
 				44EB469C18E372C900BCE999 /* Images.xcassets */,
 				44EB469118E372C900BCE999 /* Supporting Files */,
-				44EB46B918E376E800BCE999 /* FavoritesTableViewController.h */,
-				44EB46BA18E376E800BCE999 /* FavoritesTableViewController.m */,
-				44EB46BF18E3983100BCE999 /* RecentsTableViewController.h */,
-				44EB46C018E3983100BCE999 /* RecentsTableViewController.m */,
-				44EB46C218E3C25300BCE999 /* ContactsTableViewController.h */,
-				44EB46C318E3C25300BCE999 /* ContactsTableViewController.m */,
-				44EB46C818E3C6A300BCE999 /* VoicemailTableViewController.h */,
-				44EB46C918E3C6A300BCE999 /* VoicemailTableViewController.m */,
-				44EB46C518E3C51E00BCE999 /* KeyPadViewController.h */,
-				44EB46C618E3C51E00BCE999 /* KeyPadViewController.m */,
-				44EB46D118E4B69C00BCE999 /* numberPadButton.h */,
-				44EB46D218E4B69C00BCE999 /* numberPadButton.m */,
-				44EB46CE18E4B5FB00BCE999 /* KeypadView.h */,
-				44EB46CF18E4B5FB00BCE999 /* KeypadView.m */,
-				44EB46CB18E48DCB00BCE999 /* RootTabBarController.h */,
-				44EB46CC18E48DCB00BCE999 /* RootTabBarController.m */,
-				44EB46D418E4D0F200BCE999 /* UIView+Convenience.h */,
-				44EB46D518E4D0F200BCE999 /* UIView+Convenience.m */,
 			);
 			path = UIFromCode;
 			sourceTree = "<group>";
@@ -221,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44EB46B618E372C900BCE999 /* Build configuration list for PBXNativeTarget "UIFromCodeTests" */;
 			buildPhases = (
+				7C03902866C14C8AA79A32C3 /* Check Pods Manifest.lock */,
 				44EB469E18E372C900BCE999 /* Sources */,
 				44EB469F18E372C900BCE999 /* Frameworks */,
 				44EB46A018E372C900BCE999 /* Resources */,
+				ED03556B123541C5A7CFF374 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -273,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44EB469518E372C900BCE999 /* InfoPlist.strings in Resources */,
+				44BEF1E5191A6DF30043D6F7 /* al.jpg in Resources */,
 				44EB469D18E372C900BCE999 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +379,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		7C03902866C14C8AA79A32C3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED03556B123541C5A7CFF374 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-UIFromCodeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -330,12 +421,17 @@
 				44EB469B18E372C900BCE999 /* AppDelegate.m in Sources */,
 				44EB46C718E3C51E00BCE999 /* KeyPadViewController.m in Sources */,
 				44EB46CA18E3C6A300BCE999 /* VoicemailTableViewController.m in Sources */,
+				44BEF1F1191A6F990043D6F7 /* FavoritesTableViewCell.m in Sources */,
+				44BEF1EA191A6E490043D6F7 /* UIImage+RoundedImage.m in Sources */,
 				44EB46D318E4B69C00BCE999 /* numberPadButton.m in Sources */,
 				44EB46C418E3C25300BCE999 /* ContactsTableViewController.m in Sources */,
 				44EB46D018E4B5FB00BCE999 /* KeypadView.m in Sources */,
 				44EB46CD18E48DCB00BCE999 /* RootTabBarController.m in Sources */,
 				44EB46C118E3983100BCE999 /* RecentsTableViewController.m in Sources */,
 				44EB469718E372C900BCE999 /* main.m in Sources */,
+				44BEF1EB191A6E490043D6F7 /* UIImage+Alpha.m in Sources */,
+				ABAE8FA8339B29279F9CAE12 /* RecentsTableViewCell.m in Sources */,
+				ABAE8EB927E7E276E9732668 /* VoicemailTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +573,7 @@
 		};
 		44EB46B718E372C900BCE999 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE7D7BA5AB34E5D937DADBD /* Pods-UIFromCodeTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIFromCode.app/UIFromCode";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -499,6 +596,7 @@
 		};
 		44EB46B818E372C900BCE999 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE7D7BA5AB34E5D937DADBD /* Pods-UIFromCodeTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UIFromCode.app/UIFromCode";
 				FRAMEWORK_SEARCH_PATHS = (

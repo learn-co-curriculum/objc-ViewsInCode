@@ -42,7 +42,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-    self.selectedIndex = 3; 
+    //self.selectedIndex = 3;
 }
 
 - (void)configureViewControllers

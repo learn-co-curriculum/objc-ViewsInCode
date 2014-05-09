@@ -36,11 +36,13 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //self.tabBarController.tabBar.barTintColor = [UIColor clearColor];
+    //self.tabBarController.tabBar.backgroundImage = [UIImage imageNamed:@"TabBar"];
+    [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"TabBar"]]; 
     [self.view setTranslatesAutoresizingMaskIntoConstraints:NO];
     
     
     KeypadView *keypadView = [[KeypadView alloc] init];
-    keypadView.backgroundColor = [UIColor yellowColor];
     
     [keypadView setTranslatesAutoresizingMaskIntoConstraints:NO];
     
@@ -48,7 +50,7 @@
     
     NSDictionary *views = @{@"keypad":keypadView,
                             @"view":self.view};
-    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-(80)-[keypad]-(80)-|" options:0 metrics:nil views:views]];
+    [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|-(80)-[keypad]-(70)-|" options:0 metrics:nil views:views]];
     [self.view addConstraints:
     [NSLayoutConstraint constraintsWithVisualFormat:@"H:|[keypad]|" options:0 metrics:nil views:views]];
 

@@ -30,7 +30,6 @@
         UIImage *image = [UIImage imageNamed:_buttonSymbol];
         
         [self setBackgroundImage:image forState:UIControlStateNormal];
-
     }
     
     return self;
