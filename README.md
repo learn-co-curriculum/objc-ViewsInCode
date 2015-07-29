@@ -1,7 +1,4 @@
----
-  tags: tutorial, advanced, Views, UITabBarController  
-  languages: objc
----
+
 
 
 objc-ViewsInCode
