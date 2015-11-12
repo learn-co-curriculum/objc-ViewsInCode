@@ -42,7 +42,7 @@ Some tabBarItems for the phone app are actually publically accessible.  see `- (
 
 ###Autolayout
 
-- The Phone App is a portrait only application.  There is actually very little layout in the phone app that is not intrinsically derived (which makes your life much easier).  The major exception to this is the `Keypad` tab.  For the keypad, you should use AutoLayout with visual format language to recreate the grid of buttons.  
+- The Phone App is a portrait only application.  There is actually very little layout in the phone app that is not intrinsically derived (which makes your life much easier).  The major exception to this is the `Keypad` tab.  For the keypad, you should use AutoLayout to recreate the grid of buttons.  
 
 ##Approach 
 
